@@ -33,7 +33,8 @@ print("\nRESULTADOS\n")
 print(f"Categoría: {categoria}")
 
 if categoria != "Inválido":
-    print("Total a pagar: $" + str("{:,.0f}".format(total_a_pagar)))
+    print("Total a pagar: $" + str(total_a_pagar))
 else:
     print("Total a pagar: $0")
+
 
